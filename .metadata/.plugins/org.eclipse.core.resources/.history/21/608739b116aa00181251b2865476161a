@@ -1,0 +1,10 @@
+package com.producer.consumer;
+
+public class ProducerConsumerSolution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,64 @@
+package com.bik;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.concurrent.ConcurrentHashMap;
+
+public class SecondHighestCharacter {
+	 static final int ASCII_SIZE = 256;
+	public static void main(String[] args) {
+		String string = "asdgjdssssseee";
+		List<Character> occurences = new ArrayList<>();
+		int maxOccur = 0;
+		Map<Character, Integer> map = new ConcurrentHashMap();
+        char[]  charArray = string.toCharArray();
+        for(char c : charArray){
+            if(map.containsKey(c)){
+                map.put(c, (map.get(c)+1));
+            }else{
+                map.put(c,1);
+            }
+            if(map.get(c)>maxOccur){
+            	maxOccur = map.get(c);
+            }
+            
+        }
+        int i = 1;
+        int j = 0;
+        for(Entry<Character, Integer> entry : map.entrySet()){
+         if(entry.getValue() == maxOccur){
+        	 if( j == i)
+        	 occurences.add(entry.getKey());
+         }
+        }
+        
+      
+	
+		 /*int count[] = new int[ASCII_SIZE];
+	      
+	        // Construct character count array from the input
+	        // string.
+	        int len = string.length();
+	        for (int i=0; i<len; i++)
+	            count[string.charAt(i)]++;
+	      
+	        int max = -1;  // Initialize max count
+	        char result = ' ';   // Initialize result
+	      
+	        // Traversing through the string and maintaining
+	        // the count of each character
+	        for (int i = 0; i < len; i++) {
+	            if (max < count[string.charAt(i)]) {
+	                max = count[string.charAt(i)];
+	                result = string.charAt(i);
+	            }
+	        }
+	      
+	        System.out.println(result);
+*/
+	}
+
+}

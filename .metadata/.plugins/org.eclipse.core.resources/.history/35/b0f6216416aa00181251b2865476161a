@@ -1,0 +1,14 @@
+package com.producer.consumer;
+
+import java.util.concurrent.BlockingQueue;
+
+public class Consumer {
+	private BlockingQueue<Integer> synchronizationQueue;
+
+	public Consumer(BlockingQueue<Integer> synchronizationQueue) {
+		super();
+		this.synchronizationQueue = synchronizationQueue;
+	}
+	
+
+}

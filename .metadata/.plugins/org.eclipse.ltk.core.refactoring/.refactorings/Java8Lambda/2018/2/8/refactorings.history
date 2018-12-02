@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;LambdaBasic&apos; to &apos;Greeter&apos;&#x0D;&#x0A;- Original project: &apos;Java8Lambda&apos;&#x0D;&#x0A;- Original element: &apos;LambdaBasic&apos;&#x0D;&#x0A;- Renamed element: &apos;Greeter&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LambdaBasic&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{LambdaBasic.java[LambdaBasic" matchStrategy="1" name="Greeter" qualified="false" references="true" similarDeclarations="false" stamp="1519011115428" textual="false" version="1.0"/>
+</session>

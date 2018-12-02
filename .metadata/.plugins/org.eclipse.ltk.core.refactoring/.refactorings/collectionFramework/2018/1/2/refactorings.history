@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;TreeMapProgram.MyComparator&apos; to &apos;EmployeeNameComparator&apos;&#x0D;&#x0A;- Original project: &apos;collectionFramework&apos;&#x0D;&#x0A;- Original element: &apos;TreeMapProgram.MyComparator&apos;&#x0D;&#x0A;- Renamed element: &apos;TreeMapProgram.EmployeeNameComparator&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MyComparator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;TreeMapProgram{MyComparator.java[MyComparator" matchStrategy="1" name="EmployeeNameComparator" qualified="false" references="true" similarDeclarations="false" stamp="1515733845365" textual="false" version="1.0"/>
+</session>
