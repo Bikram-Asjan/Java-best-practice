@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class EmailValidation {
-
+    // checking
 	private static final String EMAIL_PATTERN2  = 
 	"^\\s*[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*\\s*$";
 	/*private static final String EMAIL_PATTERN1 = 
